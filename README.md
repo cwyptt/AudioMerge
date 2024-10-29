@@ -99,7 +99,7 @@ If you prefer to build the executable yourself, you can use PyInstaller:
 
    The executable will be created in the `dist` directory.
 
-If you want to build the one-file executable, utilize the files in "AudioMergeMKV (Only Executable)" which is found in the resources folder.
+If you want to build the one-file executable, utilize the files located in resources/AudioMergeMKV_Release.
 
 ## Usage
 
