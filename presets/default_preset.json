@@ -1,0 +1,32 @@
+[
+    {
+        "Audio Track": "Mic",
+        "Enabled": "1",
+        "Volume": "100"
+    },
+    {
+        "Audio Track": "Discord",
+        "Enabled": "1",
+        "Volume": "100"
+    },
+    {
+        "Audio Track": "Game",
+        "Enabled": "1",
+        "Volume": "100"
+    },
+    {
+        "Audio Track": "Music",
+        "Enabled": "1",
+        "Volume": "100"
+    },
+    {
+        "Audio Track": "Browser",
+        "Enabled": "",
+        "Volume": "100"
+    },
+    {
+        "Audio Track": "Desktop",
+        "Enabled": "",
+        "Volume": "100"
+    }
+]
