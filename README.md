@@ -47,7 +47,7 @@ audiomerge/
 │   ├── bin/
 │   │   ├── ffmpeg.exe (or ffmpeg for Linux/Mac)
 │   ├── other folders and files
-├── audiomerger.py
+├── audiomerge.py
 ├── other files
 ```
 
