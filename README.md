@@ -1,6 +1,5 @@
 ![Logo](AudioMergeMKV.png)
 # AudioMergeMKV
-=======
 
 AudioMergeMKV is a tool for merging selected audio tracks from an MKV video file into MP4.
 
