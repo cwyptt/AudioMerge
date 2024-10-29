@@ -26,7 +26,7 @@ Only required if you plan on building the program yourself or running the Python
 
 ```bash
 git clone https://github.com/cwyptt/AudioMergeMKV.git
-cd audiomerge
+cd AudioMergeMKV
 ```
 
 ### Install Dependencies
@@ -43,12 +43,13 @@ pip install tkinter
 4. Place the extracted `ffmpeg` folder in the root directory of the cloned repository. The structure should look like this:
 
 ```
-audiomerge/
+AudioMergeMKV/
 ├── ffmpeg/
 │   ├── bin/
 │   │   ├── ffmpeg.exe (or ffmpeg for Linux/Mac)
 │   ├── other folders and files
-├── audiomerge.py
+├── AudioMergeMKV.py
+├── AudioMergeMKV.spec
 ├── other files
 ```
 
@@ -57,7 +58,7 @@ audiomerge/
 You can run the Python script directly if you want to look at and mess with the code:
 
 ```bash
-python audiomerge.py
+python AudioMergeMKV.py
 ```
 
 Alternatively, if you just want to use AudioMergeMKV without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMergeMKV/releases) page.
@@ -75,10 +76,12 @@ If you prefer to build the executable yourself, you can use PyInstaller:
 2. Build the executable:
 
    ```bash
-   pyinstaller  audiomerge.spec
+   pyinstaller AudioMergeMKV.spec
    ```
 
    The executable will be created in the `dist` directory.
+
+If you want to build the one-file executable, utilize the files in "AudioMergeMKV (Only Executable)" which is found in the resources folder.
 
 ## Usage
 
