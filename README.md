@@ -1,6 +1,6 @@
-# AudioMerge
+# AudioMergeMKV
 
-AudioMerge is a tool for merging selected audio tracks from an MKV video file into MP4.
+AudioMergeMKV is a tool for merging selected audio tracks from an MKV video file into MP4.
 
 *Remove unwanted audio tracks from your clips.*
 
@@ -24,7 +24,7 @@ Only required if you plan on building the program yourself or running the Python
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/cwyptt/audiomerge.git
+git clone https://github.com/cwyptt/AudioMergeMKV.git
 cd audiomerge
 ```
 
@@ -42,7 +42,7 @@ pip install tkinter
 4. Place the extracted `ffmpeg` folder in the root directory of the cloned repository. The structure should look like this:
 
 ```
-audiomerger/
+audiomerge/
 ├── ffmpeg/
 │   ├── bin/
 │   │   ├── ffmpeg.exe (or ffmpeg for Linux/Mac)
@@ -56,10 +56,10 @@ audiomerger/
 You can run the Python script directly if you want to look at and mess with the code:
 
 ```bash
-python audiomerger.py
+python audiomerge.py
 ```
 
-Alternatively, if you just want to use Audio Merger without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/audiomerge/releases) page.
+Alternatively, if you just want to use AudioMergeMKV without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMergeMKV/releases) page.
 
 ### Build the Executable with PyInstaller
 
