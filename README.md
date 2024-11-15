@@ -1,10 +1,10 @@
 ![Logo](resources/AudioMergeMKV.png)
-# AudioMergeMKV 🎮🎧
+# AudioMerge 🎮🎧
 
 *A powerful tool for managing multi-track audio in MKV files, perfect for gamers who use OBS's replay buffer feature instead of Nvidia Shadowplay.*
 
 ## Fine-tune Your Clips
-AudioMergeMKV lets you:
+AudioMerge lets you:
 - Selectively keep or remove audio tracks
 - Adjust individual audio track volumes
 - Convert MKV files to MP4 while preserving both video quality and chosen audio tracks
@@ -16,7 +16,7 @@ Whether you create highlight clips or long-form content, you can:
 - Fine-tune multiple audio tracks (game audio, Discord chat, music, or any other application sounds)
 - Maintain complete control over audio in your final content while enjoying smaller file sizes
 
-## Why AudioMergeMKV?
+## Why AudioMerge?
 - 🎚️ Intuitive volume control per audio track
 - 💾 Preset system for quick configurations
 - ⏰ Custom video start time setting
@@ -79,7 +79,7 @@ You can run the Python script directly if you want to look at and mess with the 
 python AudioMergeMKV.py
 ```
 
-Alternatively, if you just want to use AudioMergeMKV without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMergeMKV/releases) page.
+Alternatively, if you just want to use AudioMergeMKV without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMerge/releases) page.
 
 ### Build the Executable with PyInstaller
 
