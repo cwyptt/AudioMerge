@@ -1,29 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "caYjTdO3Uxo=",
+  "dgSpecHash": "Si0jpTsP2nE=",
   "success": true,
   "projectFilePath": "C:\\Users\\nytro\\Documents\\audiomerge\\audiomergedotnet\\AudioMerge\\AudioMerge.WPF\\AudioMerge.WPF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nytro\\.nuget\\packages\\excss\\4.2.3\\excss.4.2.3.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\harfbuzzsharp\\7.3.0.2\\harfbuzzsharp.7.3.0.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.2\\harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.2\\harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0\\microsoft.extensions.logging.9.0.0.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.logging.debug\\9.0.0\\microsoft.extensions.logging.debug.9.0.0.nupkg.sha512",
     "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\sharpvectors.wpf\\1.8.4.2\\sharpvectors.wpf.1.8.4.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\shimskiasharp\\2.0.0.2\\shimskiasharp.2.0.0.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\skiasharp\\2.88.8\\skiasharp.2.88.8.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.8\\skiasharp.harfbuzz.2.88.8.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.8\\skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.8\\skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\svg.custom\\2.0.0.2\\svg.custom.2.0.0.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\svg.model\\2.0.0.2\\svg.model.2.0.0.2.nupkg.sha512",
-    "C:\\Users\\nytro\\.nuget\\packages\\svg.skia\\2.0.0.2\\svg.skia.2.0.0.2.nupkg.sha512"
+    "C:\\Users\\nytro\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

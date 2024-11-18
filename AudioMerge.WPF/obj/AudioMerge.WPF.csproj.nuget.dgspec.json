@@ -120,16 +120,6 @@
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
-          "dependencies": {
-            "SharpVectors.Wpf": {
-              "target": "Package",
-              "version": "[1.8.4.2, )"
-            },
-            "Svg.Skia": {
-              "target": "Package",
-              "version": "[2.0.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
