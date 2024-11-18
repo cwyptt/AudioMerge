@@ -1,0 +1,14 @@
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\AudioMerge.Core.deps.json
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\AudioMerge.Core.dll
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\AudioMerge.Core.pdb
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.AssemblyInfoInputs.cache
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.AssemblyInfo.cs
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.csproj.CoreCompileInputs.cache
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.dll
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\refint\AudioMerge.Core.dll
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.pdb
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\ref\AudioMerge.Core.dll
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.csproj.AssemblyReference.cache
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\ffmpeg\ffmpeg.exe
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\ffmpeg\ffprobe.exe

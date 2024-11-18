@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AudioMerge.Core\AudioMerge.Core.csproj" />
+  </ItemGroup>
+  
+   <ItemGroup>
+    <Resource Include="Images\*.png" />
+    <None Remove="Images\logo.svg" />
+    <None Remove="Assets\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Content Include="ffmpeg\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="src\Windows\OldMainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <XamlRuntime>Wpf</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Themes\DarkTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <XamlRuntime>Wpf</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  
+	<ItemGroup>
+	<Resource Include="Images\icon.ico" />
+	<Resource Include="Resources\**\*.xaml">
+    <SubType>Designer</SubType>
+	</Resource>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
+    <PackageReference Include="Svg.Skia" Version="2.0.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>
