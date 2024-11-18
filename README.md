@@ -1,4 +1,4 @@
-![Logo](resources/AudioMergeMKV.png)
+![Logo](AudioMerge.WPF/Images/logo.png)
 # AudioMerge 🎮🎧
 
 *A powerful tool for managing multi-track audio in MKV files, perfect for gamers who use OBS's replay buffer feature instead of Nvidia Shadowplay.*
