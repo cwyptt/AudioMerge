@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AudioMerge.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ec75f9b001c2adc71282eee5da317efdba2d46b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57e0e2f62f834e9467b1fd3af4accdbf50f83f20")]
 [assembly: System.Reflection.AssemblyProductAttribute("AudioMerge.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AudioMerge.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
