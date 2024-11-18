@@ -12,3 +12,4 @@ C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.csproj.AssemblyReference.cache
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\ffmpeg\ffmpeg.exe
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\bin\Debug\net9.0\ffmpeg\ffprobe.exe
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.Core\obj\Debug\net9.0\AudioMerge.Core.sourcelink.json

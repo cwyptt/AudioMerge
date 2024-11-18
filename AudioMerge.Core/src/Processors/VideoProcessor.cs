@@ -1,13 +1,7 @@
 ﻿using AudioMerge.Core.Models;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Text.Json;
-using System.Linq;
 
 namespace AudioMerge.Core.Processors
 {
@@ -29,10 +23,39 @@ namespace AudioMerge.Core.Processors
         public VideoProcessor(ILogger<VideoProcessor> logger)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _ffmpegPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ffmpeg", "ffmpeg.exe");
-            _ffprobePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ffmpeg", "ffprobe.exe");
+            _ffmpegPath = FindExecutable("ffmpeg") ?? throw new FileNotFoundException("FFmpeg executable not found in PATH or FFMPEG_HOME.");
+            _ffprobePath = FindExecutable("ffprobe") ?? throw new FileNotFoundException("FFprobe executable not found in PATH or FFMPEG_HOME.");
 
             ValidateFFmpegInstallation();
+        }
+
+        private string? FindExecutable(string executableName)
+        {
+            // Check PATH environment variable
+            var paths = Environment.GetEnvironmentVariable("PATH")?.Split(Path.PathSeparator) ?? Array.Empty<string>();
+            foreach (var path in paths)
+            {
+                var fullPath = Path.Combine(path, executableName + (OperatingSystem.IsWindows() ? ".exe" : ""));
+                if (File.Exists(fullPath))
+                {
+                    _logger.LogInformation("{ExecutableName} found in PATH at {Path}", executableName, fullPath);
+                    return fullPath;
+                }
+            }
+
+            // Check FFMPEG_HOME environment variable
+            var ffmpegHome = Environment.GetEnvironmentVariable("FFMPEG_HOME");
+            if (!string.IsNullOrEmpty(ffmpegHome))
+            {
+                var fullPath = Path.Combine(ffmpegHome, executableName + (OperatingSystem.IsWindows() ? ".exe" : ""));
+                if (File.Exists(fullPath))
+                {
+                    _logger.LogInformation("{ExecutableName} found in FFMPEG_HOME at {Path}", executableName, fullPath);
+                    return fullPath;
+                }
+            }
+
+            return null;
         }
 
         private void ValidateFFmpegInstallation()

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AudioMerge.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ec75f9b001c2adc71282eee5da317efdba2d46b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AudioMerge.WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AudioMerge.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

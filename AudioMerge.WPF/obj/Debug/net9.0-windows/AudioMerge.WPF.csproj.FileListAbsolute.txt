@@ -62,5 +62,4 @@ C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\b
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\obj\Debug\net9.0-windows\src\Windows\OldMainWindow.g.cs
 C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\obj\Debug\net9.0-windows\src\Windows\OldMainWindow.baml
-C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\bin\Debug\net9.0-windows\ffmpeg\ffmpeg.exe
-C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\bin\Debug\net9.0-windows\ffmpeg\ffprobe.exe
+C:\Users\nytro\Documents\audiomerge\audiomergedotnet\AudioMerge\AudioMerge.WPF\obj\Debug\net9.0-windows\AudioMerge.WPF.sourcelink.json
