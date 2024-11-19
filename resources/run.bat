@@ -1,4 +1,4 @@
 @echo off
 
 cd ..
-pyinstaller AudioMergeMKV.spec
+pyinstaller PyAudioMerge.spec

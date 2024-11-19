@@ -1,7 +1,7 @@
-![Logo](resources/AudioMergeMKV.png)
-# AudioMergeMKV
+![Logo](resources/AudioMerge.png)
+# AudioMerge
 
-AudioMergeMKV is a tool for merging selected audio tracks from an MKV video file into MP4.
+AudioMerge is a tool for merging selected audio tracks from an MKV video file into MP4.
 
 *Remove unwanted audio tracks from your clips.*
 
@@ -25,7 +25,7 @@ Only required if you plan on building the program yourself or running the Python
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/cwyptt/AudioMergeMKV.git
+git clone https://github.com/cwyptt/PyAudioMerge.git
 cd AudioMergeMKV
 ```
 
@@ -43,13 +43,13 @@ pip install tkinter
 4. Place the extracted `ffmpeg` folder in the root directory of the cloned repository. The structure should look like this:
 
 ```
-AudioMergeMKV/
+PyAudioMerge/
 ├── ffmpeg/
 │   ├── bin/
 │   │   ├── ffmpeg.exe (or ffmpeg for Linux/Mac)
 │   ├── other folders and files
-├── AudioMergeMKV.py
-├── AudioMergeMKV.spec
+├── PyAudioMerge.py
+├── PyAudioMerge.spec
 ├── other files
 ```
 
@@ -58,10 +58,10 @@ AudioMergeMKV/
 You can run the Python script directly if you want to look at and mess with the code:
 
 ```bash
-python AudioMergeMKV.py
+python PyAudioMerge.py
 ```
 
-Alternatively, if you just want to use AudioMergeMKV without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMergeMKV/releases) page.
+Alternatively, if you just want to use PyAudioMerge without diving into the code, you can download the executable from the [Releases](https://github.com/cwyptt/AudioMerge/releases) page.
 
 ### Build the Executable with PyInstaller
 
@@ -76,12 +76,12 @@ If you prefer to build the executable yourself, you can use PyInstaller:
 2. Build the executable:
 
    ```bash
-   pyinstaller AudioMergeMKV.spec
+   pyinstaller PyAudioMerge.spec
    ```
 
    The executable will be created in the `dist` directory.
 
-If you want to build the one-file executable, utilize the files in "AudioMergeMKV (Only Executable)" which is found in the resources folder.
+If you want to build the one-file executable, utilize the files in "PyAudioMerge (Only Executable)" which is found in the resources folder.
 
 ## Usage
 
