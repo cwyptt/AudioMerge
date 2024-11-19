@@ -1,9 +1,27 @@
 ![Logo](resources/AudioMerge.png)
-# AudioMerge
+# AudioMerge 🎮🎧
 
-AudioMerge is a tool for merging selected audio tracks from an MKV video file into MP4.
+*A powerful tool for managing multi-track audio in MKV files, perfect for gamers who use OBS's replay buffer feature instead of Nvidia Shadowplay.*
 
-*Remove unwanted audio tracks from your clips.*
+## Fine-tune Your Clips
+AudioMerge lets you:
+- Selectively keep or remove audio tracks
+- Adjust individual audio track volumes
+- Convert MKV files to MP4 while preserving both video quality and chosen audio tracks
+- Save your preferred audio configurations as presets
+
+## Perfect for All Content
+Whether you create highlight clips or long-form content, you can:
+- Process clips from OBS's replay buffer with the same ease as Shadowplay
+- Fine-tune multiple audio tracks (game audio, Discord chat, music, or any other application sounds)
+- Maintain complete control over audio in your final content while enjoying smaller file sizes
+
+## Why AudioMerge?
+- 🎚️ Intuitive volume control per audio track
+- 💾 Preset system for quick configurations
+- ⏰ Custom video start time setting
+- 🎥 MKV to MP4 conversion with audio track selection
+- 🖥️ User-friendly graphical interface
 
 ## Features
 
@@ -25,8 +43,8 @@ Only required if you plan on building the program yourself or running the Python
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/cwyptt/PyAudioMerge.git
-cd AudioMergeMKV
+git clone https://github.com/cwyptt/AudioMerge.git
+cd AudioMerge
 ```
 
 ### Install Dependencies
@@ -81,7 +99,7 @@ If you prefer to build the executable yourself, you can use PyInstaller:
 
    The executable will be created in the `dist` directory.
 
-If you want to build the one-file executable, utilize the files in "PyAudioMerge (Only Executable)" which is found in the resources folder.
+If you want to build the one-file executable, utilize the files located at "_release\release_build_tools".
 
 ## Usage
 
